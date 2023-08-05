@@ -1,0 +1,24 @@
+# Eis global default setting
+DefaultEisMargin: 0.2f;  #< Default Eis Margin
+DefaultEISV3FrameDelay: 30;  #< Default Frame Delay
+
+# sensor sample rate setting here
+GyroSamplingRate:   416.0f;  #< Gyro Sampling rate
+OisSamplingRate:    500.0f;  #< OIS Sampling rate
+AccelSamplingRate:  416.0f;  #< Accel Sampling rate
+MagSamplingRate:    100.0f;  #< Mag Sampling rate
+
+# distortion correction calibration bin files
+CalibrationFiles =>("/vendor/lib64/camera/arcsoft_uw_golden_calibration.bin",  # UW calib
+                    "/vendor/lib64/camera/arcsoft_dc_calibration_w.bin",  # W calib
+                    "/vendor/lib64/camera/arcsoft_dc_calibration_t.bin"   # T calib
+                );
+
+CalibrationSize =>(256, 256, 256);
+
+# Blur reduction strength for each camera , range [0, 5], 0 means no blur reduction
+BlurReduction=>(0, 0, 0);
+
+# Eis calibration parameters
+DefaultEISCaliParam=> (2.0, 1.0, 0.0244, 0.0048, -0.5, 2.0, 0.0103, 0.0011, -0.5, 0.0508, 0.0407, 0.0);
+PhotoEisCalibParam=> (2.0, 1.0, 0.0244, 0.0048, -0.5, 2.0, 0.0103, 0.0011, -0.5, 0.0508, 0.0407, 0.0);

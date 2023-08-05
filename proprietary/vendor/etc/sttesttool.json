@@ -1,0 +1,39 @@
+{
+	"platform_info":	{
+		"platform_id":	{
+			"hw_platform":	"taro",
+			"clf_id":	"st54k",
+            "pltf_json_ver":	"1.0.0"
+		},
+		"evna_criteria":	{
+			"channel":	"q",
+			"min_max":	"min",
+			"num_of_loops":	1
+		},
+		"ant_diag_threshold":	{
+			"i_max":	300,
+			"i_min":	130,
+			"am_max":	-200,
+			"am_min":	-430,
+			"se1_se2_diff":	10
+		},
+		"phase_compensation":	{
+			"slope":	0,
+			"intercept":	0,
+			"offset":	0
+		},
+		"verbose":	{
+			"print_level":	2
+		},
+		"custom_config":	{
+			"use_custom_config":    0
+		}
+	},
+	"device_info":	{
+		"evna_status":	{
+			"evna_performed":	0,
+			"last_cal_reso_freq":	12930,
+			"last_used_reso_freq":	12960
+		}
+	}
+}

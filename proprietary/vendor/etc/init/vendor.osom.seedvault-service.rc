@@ -1,0 +1,25 @@
+#
+# Copyright (C) 2022 OSOM Products Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+service vendor.osom.seedvault-service /vendor/bin/hw/vendor.osom.seedvault-service
+    class hal
+    user system
+    group system
+    disabled
+
+on property:vendor.qvirtmgr.cpusys_vm.status=running && property:vendor.qvirtmgr.trustedvm.status=running && property:sys.user.0.ce_available=true
+   enable vendor.osom.seedvault-service
+   start vendor.osom.seedvault-service
