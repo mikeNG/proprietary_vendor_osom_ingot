@@ -897,9 +897,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/osom/ingot/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/osom/ingot/proprietary/vendor/etc/usb_compositions.conf:$(TARGET_COPY_OUT_VENDOR)/etc/usb_compositions.conf \
-    vendor/osom/ingot/proprietary/vendor/etc/vintf/manifest_diwali.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_diwali.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/vintf/manifest_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_taro.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/vintf/manifest_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_ukee.xml \
     vendor/osom/ingot/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/osom/ingot/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/osom/ingot/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
@@ -2980,4 +2977,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.vpp@2.0-service \
     vendor.qti.hardware.wifi.wificfr@1.0-service \
-    vendor.qti.memory.pasrmanager@1.0-service
+    vendor.qti.memory.pasrmanager@1.0-service \
+    manifest_diwali \
+    manifest_taro \
+    manifest_ukee
