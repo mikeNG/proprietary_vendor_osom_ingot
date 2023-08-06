@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/osom/ingot/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/osom/ingot/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
-    vendor/osom/ingot/proprietary/vendor/bin/PalTest:$(TARGET_COPY_OUT_VENDOR)/bin/PalTest \
     vendor/osom/ingot/proprietary/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest \
     vendor/osom/ingot/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
     vendor/osom/ingot/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
