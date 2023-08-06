@@ -172,7 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/hw/qvrservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qvrservice \
     vendor/osom/ingot/proprietary/vendor/bin/hw/sxrservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sxrservice \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
-    vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.osom.diag-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.osom.diag-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.osom.seedvault-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.osom.seedvault-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.camera.provider@2.7-service_64 \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
@@ -536,7 +535,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/vendor.osom.diag-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.osom.diag-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.osom.seedvault-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.osom.seedvault-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
@@ -2726,7 +2724,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libdpmframework.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libdpmtcm.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.libmwqemiptablemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libmwqemiptablemgr.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/vendor.osom.diag-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.osom.diag-V1-ndk.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.osom.seedvault-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.osom.seedvault-V2-ndk.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
@@ -2961,7 +2958,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine \
     nfc-service-default \
     qtiradio-saidl \
-    vendor.osom.diag-service \
     vendor.qti.gnss-service \
     vendor.qti.hardware.limits-service \
     vendor.qti.hardware.perf \

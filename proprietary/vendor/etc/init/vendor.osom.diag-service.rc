@@ -1,4 +1,0 @@
-service vendor.diag-default /vendor/bin/hw/vendor.osom.diag-service
-    class hal
-    user system
-    group system

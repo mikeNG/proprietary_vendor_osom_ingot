@@ -610,15 +610,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.osom.diag-service",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.osom.diag-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.qti.gnss-service",
 	owner: "osom",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
