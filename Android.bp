@@ -511,15 +511,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.biometrics.fingerprint@2.1-service",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.light-service.osom",
 	owner: "osom",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.light-service.osom.xml",
@@ -532,15 +523,6 @@ prebuilt_etc_xml {
 	name: "android.hardware.security.keymint-service-qti",
 	owner: "osom",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.usb.gadget@1.1-service",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -568,15 +550,6 @@ prebuilt_etc_xml {
 	name: "dataconnection-saidl",
 	owner: "osom",
 	src: "proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.clearkey",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/chiofflinepostproctest:$(TARGET_COPY_OUT_VENDOR)/bin/chiofflinepostproctest \
     vendor/osom/ingot/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/osom/ingot/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/osom/ingot/proprietary/vendor/bin/cplay:$(TARGET_COPY_OUT_VENDOR)/bin/cplay \
     vendor/osom/ingot/proprietary/vendor/bin/ctrlapp_dut:$(TARGET_COPY_OUT_VENDOR)/bin/ctrlapp_dut \
     vendor/osom/ingot/proprietary/vendor/bin/diag_callback_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_callback_sample \
     vendor/osom/ingot/proprietary/vendor/bin/diag_dci_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_dci_sample \
@@ -151,11 +150,8 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
     vendor/osom/ingot/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/osom/ingot/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
-    vendor/osom/ingot/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.audio.service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service_64 \
-    vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.clearkey \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
@@ -165,7 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.nfc-service.st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc-service.st \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.power-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service-qti \
-    vendor/osom/ingot/proprietary/vendor/bin/hw/android.hardware.usb.gadget@1.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget@1.1-service-qti \
     vendor/osom/ingot/proprietary/vendor/bin/hw/capabilityconfigstoretest:$(TARGET_COPY_OUT_VENDOR)/bin/hw/capabilityconfigstoretest \
     vendor/osom/ingot/proprietary/vendor/bin/hw/qconfigservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qconfigservice \
     vendor/osom/ingot/proprietary/vendor/bin/hw/qcrilNrd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrilNrd \
@@ -294,7 +289,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/wificfrtool:$(TARGET_COPY_OUT_VENDOR)/bin/wificfrtool \
     vendor/osom/ingot/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/osom/ingot/proprietary/vendor/bin/wifilearner:$(TARGET_COPY_OUT_VENDOR)/bin/wifilearner \
-    vendor/osom/ingot/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/osom/ingot/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/osom/ingot/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/osom/ingot/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
@@ -477,10 +471,8 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
     vendor/osom/ingot/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.audio.service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service_64.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc \
@@ -488,7 +480,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.light-service.osom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light-service.osom.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.power-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
@@ -891,7 +882,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/osom/ingot/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/osom/ingot/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/usb_compositions.conf:$(TARGET_COPY_OUT_VENDOR)/etc/usb_compositions.conf \
     vendor/osom/ingot/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/osom/ingot/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/osom/ingot/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
@@ -1932,10 +1922,7 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@6.0.so \
     vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.automotive.vehicle@2.0-manager-lib.so \
     vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.automotive.vehicle@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.automotive.vehicle@2.0.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.light-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light-V1-ndk.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.usb.gadget@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb.gadget@1.0.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/android.hardware.usb.gadget@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb.gadget@1.1.so \
     vendor/osom/ingot/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/osom/ingot/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/camera/arcsoft_dualcam_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dualcam_calibration.bin \
@@ -2947,14 +2934,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.light-service.osom \
     android.hardware.security.keymint-service-qti \
-    android.hardware.usb.gadget@1.1-service \
     c2_manifest_vendor \
     c2_manifest_vendor_audio \
     dataconnection-saidl \
-    manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     nfc-service-default \
     qtiradio-saidl \
