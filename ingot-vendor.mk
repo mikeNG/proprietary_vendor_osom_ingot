@@ -194,10 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/init.qcom.sdio.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sdio.sh \
     vendor/osom/ingot/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
     vendor/osom/ingot/proprietary/vendor/bin/init.qti.kernel.debug-cape.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug-cape.sh \
-    vendor/osom/ingot/proprietary/vendor/bin/init.qti.kernel.debug-diwali.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug-diwali.sh \
-    vendor/osom/ingot/proprietary/vendor/bin/init.qti.kernel.debug-taro.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug-taro.sh \
     vendor/osom/ingot/proprietary/vendor/bin/init.qti.kernel.debug.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug.sh \
-    vendor/osom/ingot/proprietary/vendor/bin/init.qti.kernel.early_debug-taro.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.early_debug-taro.sh \
     vendor/osom/ingot/proprietary/vendor/bin/init.qti.kernel.early_debug.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.early_debug.sh \
     vendor/osom/ingot/proprietary/vendor/bin/init.qti.keymaster.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.keymaster.sh \
     vendor/osom/ingot/proprietary/vendor/bin/init.qti.media.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.media.sh \
@@ -291,20 +288,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/osom/ingot/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/osom/ingot/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_parrot_qrd/QRD_diwali_parrot_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_parrot_qrd/QRD_diwali_parrot_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_parrot_qrd/QRD_diwali_parrot_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_parrot_qrd/QRD_diwali_parrot_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_workspaceFileXml.qwsp \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
@@ -312,80 +295,9 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/ukee_cdp/CDP_ukee_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_cdp/CDP_ukee_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/ukee_cdp/CDP_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_cdp/CDP_ukee_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/ukee_mtp/MTP_ukee_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_mtp/MTP_ukee_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_cdp/CDP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_cdp/CDP_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_cdp/CDP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_cdp/CDP_workspaceFileXml.qwsp \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_ingot/Ingot_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_ingot/Ingot_acdb_cal.acdb \
     vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_ingot/Ingot_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_ingot/Ingot_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb \
-    vendor/osom/ingot/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.conf \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/mixer_paths_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_cdp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/mixer_paths_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_ingot.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/mixer_paths_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_qrd.xml \
     vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_upd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_cdp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_ingot.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_cape/resourcemanager_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/audio_effects.conf \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/audio_effects.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_idp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_idp_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/mixer_paths_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/mixer_paths_diwali_qrd_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_idp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_idp_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_diwali_qrd_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali/resourcemanager_upd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_diwali_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_diwali_qssi/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects.conf \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_idp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_idp_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_parrot_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_diwali_qrd_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_idp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_idp_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_idp_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_parrot_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_diwali_qrd_sku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_diwali_qrd_sku1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_upd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_parrot_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot_qssi/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/audio_effects.conf \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/audio_effects.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_cdp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_ingot.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_mtp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/mixer_paths_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/mixer_paths_waipio_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_upd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/resourcemanager_waipio_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_waipio_cdp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/resourcemanager_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_waipio_ingot.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/resourcemanager_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_waipio_mtp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro/resourcemanager_waipio_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/resourcemanager_waipio_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_taro_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro_qssi/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/audio_effects.conf \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/audio_effects.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/audio_policy_configuration.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/mixer_paths_ukee_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/mixer_paths_ukee_cdp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/mixer_paths_ukee_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/mixer_paths_ukee_mtp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/mixer_paths_ukee_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/mixer_paths_ukee_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_ukee_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_ukee_cdp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_ukee_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_ukee_mtp.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_ukee_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_ukee_qrd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee/resourcemanager_upd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee/resourcemanager_upd.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/audio/sku_ukee_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ukee_qssi/audio_policy_configuration.xml \
     vendor/osom/ingot/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/osom/ingot/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
     vendor/osom/ingot/proprietary/vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml \
@@ -455,14 +367,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/osom/ingot/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/osom/ingot/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_diwali-idp-sku1-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_diwali-idp-sku1-snd-card \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_diwali-idp-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_diwali-idp-snd-card \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_diwali-qrd-sku1-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_diwali-qrd-sku1-snd-card \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_diwali-qrd-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_diwali-qrd-snd-card \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_ukee-mtp-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_ukee-mtp-snd-card \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_ukee-qrd-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_ukee-qrd-snd-card \
-    vendor/osom/ingot/proprietary/vendor/etc/ftm_test_config_waipio-qrd-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_waipio-qrd-snd-card \
     vendor/osom/ingot/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/osom/ingot/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
     vendor/osom/ingot/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
@@ -576,33 +480,9 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/osom/ingot/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/osom/ingot/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v0.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_diwali_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_diwali_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v2.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_diwali_v0.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_diwali_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_diwali_v1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_diwali_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_diwali_v2.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_taro.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_taro_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_taro_vendor.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_ukee.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_performance_ukee_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_ukee_vendor.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_taro.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_taro_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_taro_vendor.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_ukee.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_codecs_ukee_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_ukee_vendor.xml \
     vendor/osom/ingot/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_diwali_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v0/video_system_specs.json \
-    vendor/osom/ingot/proprietary/vendor/etc/media_diwali_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v1/video_system_specs.json \
-    vendor/osom/ingot/proprietary/vendor/etc/media_diwali_v2/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_diwali_v2/video_system_specs.json \
     vendor/osom/ingot/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/osom/ingot/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_profiles_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_diwali_v0.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_profiles_diwali_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_diwali_v1.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_profiles_diwali_v2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_diwali_v2.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_profiles_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_taro.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_profiles_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_ukee.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/media_taro/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_taro/video_system_specs.json \
-    vendor/osom/ingot/proprietary/vendor/etc/media_ukee/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_ukee/video_system_specs.json \
     vendor/osom/ingot/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/osom/ingot/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/osom/ingot/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
@@ -617,34 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
     vendor/osom/ingot/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
     vendor/osom/ingot/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/android.hardware.wifi.aware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.aware.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.rtt.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_cape/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_cape/android.hardware.sensor.barometer.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_cape/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_cape/android.hardware.sensor.hifi_sensors.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_diwali/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_diwali/android.hardware.sensor.barometer.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_diwali/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_diwali/android.hardware.sensor.hifi_sensors.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_taro/android.hardware.sensor.ambient_temperature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_taro/android.hardware.sensor.ambient_temperature.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_taro/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_taro/android.hardware.sensor.barometer.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_taro/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_taro/android.hardware.sensor.hifi_sensors.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_taro/android.hardware.sensor.relative_humidity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_taro/android.hardware.sensor.relative_humidity.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.accelerometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.accelerometer.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.ambient_temperature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.ambient_temperature.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.barometer.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.compass.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.compass.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.gyroscope.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.gyroscope.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.hifi_sensors.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.light.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.proximity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.proximity.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.relative_humidity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.relative_humidity.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.stepcounter.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/permissions/sku_ukee/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_ukee/android.hardware.sensor.stepdetector.xml \
     vendor/osom/ingot/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/osom/ingot/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/osom/ingot/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
@@ -684,10 +536,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml \
     vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity.txt \
     vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina.txt \
-    vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml \
-    vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina.txt \
-    vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml \
     vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio.txt \
     vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml \
     vendor/osom/ingot/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
@@ -737,34 +585,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/osom/ingot/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/cape_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cape_qrd_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_bu52053nvx_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_default_sensors.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_dynamic_sensors.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lps22hh_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lsm6dst_1.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_tmd3702_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_irq.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lps22hh_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lsm6dst_1.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_lsm6dst_1.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_power_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_qrd_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_dynamic_sensors.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_lps22hh_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_sx932x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_tmd3702_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_sx932x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_tmd3702_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/diwali_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_lsm6dst_1.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/qsh_camera.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
@@ -804,34 +624,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_bu52053nvx_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_default_sensors.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_dynamic_sensors.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_lps22hh_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_lsm6dst_1.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_tmd3702_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_irq.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_lps22hh_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_lsm6dst_1.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_mtp_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_mtp_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_mtp_lsm6dst_1.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_power_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_lps22hh_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_sx932x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_tmd3702_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_shtw2_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_sx932x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_tmd3702_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_vertigo_ak991x_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_vertigo_lsm6dst_0.json \
-    vendor/osom/ingot/proprietary/vendor/etc/sensors/config/ukee_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_vertigo_lsm6dst_1.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/waipio_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_ak991x_0.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/waipio_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_bu52053nvx_0.json \
     vendor/osom/ingot/proprietary/vendor/etc/sensors/config/waipio_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_default_sensors.json \
@@ -2944,7 +2736,4 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.vpp@2.0-service \
     vendor.qti.hardware.wifi.wificfr@1.0-service \
-    vendor.qti.memory.pasrmanager@1.0-service \
-    manifest_diwali \
-    manifest_taro \
-    manifest_ukee
+    vendor.qti.memory.pasrmanager@1.0-service

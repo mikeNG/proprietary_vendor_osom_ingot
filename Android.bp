@@ -690,30 +690,3 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "manifest_diwali",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest_diwali.xml",
-	filename_from_src: true,
-	sub_dir: "vintf",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_taro",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest_taro.xml",
-	filename_from_src: true,
-	sub_dir: "vintf",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_ukee",
-	owner: "osom",
-	src: "proprietary/vendor/etc/vintf/manifest_ukee.xml",
-	filename_from_src: true,
-	sub_dir: "vintf",
-	soc_specific: true,
-}
-
