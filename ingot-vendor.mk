@@ -2688,6 +2688,7 @@ PRODUCT_PACKAGES += \
     TrustZoneAccessService \
     pasrservice \
     powermodule_java \
+    PowerOffAlarm \
     uimgbaservice \
     ImsRcsService \
     QtiTelephony \
