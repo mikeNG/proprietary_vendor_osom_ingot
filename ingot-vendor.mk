@@ -184,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.media.c2@1.0-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.media.c2audio@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.media.c2audio@1.0-service \
-    vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.memory.pasrmanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.memory.pasrmanager@1.0-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.psiclient@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.psiclient@1.0-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.spu@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.spu@1.1-service \
     vendor/osom/ingot/proprietary/vendor/bin/hw/vendor.qti.spu@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.spu@2.0-service \
@@ -449,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
@@ -1023,7 +1021,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.soter@1.0-impl.so \
-    vendor/osom/ingot/proprietary/vendor/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/osom/ingot/proprietary/vendor/lib/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscommon.so \
     vendor/osom/ingot/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
@@ -1232,7 +1229,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpal_net_if.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpalclient.so \
-    vendor/osom/ingot/proprietary/vendor/lib/libpasrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpasrutils.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/osom/ingot/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
@@ -1241,7 +1237,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercallback.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercore.so \
-    vendor/osom/ingot/proprietary/vendor/lib/libpsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsi.so \
     vendor/osom/ingot/proprietary/vendor/lib/libpsmoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsmoptfeature.so \
     vendor/osom/ingot/proprietary/vendor/lib/libqc2audio_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_base.so \
     vendor/osom/ingot/proprietary/vendor/lib/libqc2audio_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_basecodec.so \
@@ -1675,7 +1670,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.1.so \
     vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.mstatservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.mstatservice@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.mstatservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.mstatservice@1.0.so \
-    vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.power.pasrmanager@1.0.so \
     vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.qesdsys-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdsys-V1-ndk.so \
     vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so \
@@ -1988,7 +1982,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/hw/vendor.qti.hardware.wifidisplaysession@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.wifidisplaysession@1.0-impl.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/osom/ingot/proprietary/vendor/lib64/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscommon.so \
     vendor/osom/ingot/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
@@ -2659,7 +2652,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.1.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.mstatservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.mstatservice@1.0-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.mstatservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.mstatservice@1.0.so \
-    vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.power.pasrmanager@1.0.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.qesdhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.0.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.qesdhal@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.1-impl.so \
     vendor/osom/ingot/proprietary/vendor/lib64/vendor.qti.qesdhal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.1.so \
@@ -2687,7 +2679,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     TrustZoneAccessService \
-    pasrservice \
     powermodule_java \
     PowerOffAlarm \
     uimgbaservice \
@@ -2738,5 +2729,4 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.qtiradioconfig \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.vpp@2.0-service \
-    vendor.qti.hardware.wifi.wificfr@1.0-service \
-    vendor.qti.memory.pasrmanager@1.0-service
+    vendor.qti.hardware.wifi.wificfr@1.0-service
