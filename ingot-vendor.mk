@@ -242,7 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/osom/ingot/proprietary/vendor/bin/shsusrd:$(TARGET_COPY_OUT_VENDOR)/bin/shsusrd \
     vendor/osom/ingot/proprietary/vendor/bin/sigma_dut:$(TARGET_COPY_OUT_VENDOR)/bin/sigma_dut \
-    vendor/osom/ingot/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/osom/ingot/proprietary/vendor/bin/spdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/spdaemon \
     vendor/osom/ingot/proprietary/vendor/bin/spectraltool:$(TARGET_COPY_OUT_VENDOR)/bin/spectraltool \
     vendor/osom/ingot/proprietary/vendor/bin/sputestclient:$(TARGET_COPY_OUT_VENDOR)/bin/sputestclient \
